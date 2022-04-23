@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<h1 align='center'>Racunanje osnovnim <br> aritmetickim operacijama </h1>
+<table border='1' align='center'>
+ <form name="operacija" action="" method="">
+ <tr>
+<td bgcolor="#ccc">Unesi prvi broj:</td>
+<td><input type="text" name="br1" value="" /> </td>
+</tr>
+ <tr>
+<td bgcolor="#ccc">Unesi drugi broj: </td>
+<td><input type="text" name="br2" value="" /> </td>
+ </tr>
+ <tr>
+<td bgcolor="#ecf" colspan='2' align='right'>
+<input type="button" name="saberi" value=" + "
+onClick="izracunaj(1);" />
+<input type="button" name="oduzmi" value=" - "
+onClick="izracunaj(2);" />
+<input type="button" name="pomnozi" value=" * "
+onClick="izracunaj(3);" />
+<input type="button" name="podijeli" value=" / "
+onClick="izracunaj(4);" />
+</td>
+ </tr>
+ <tr>
+<td bgcolor="#ccc" colspan='2' align='right'>
+ Rezultat:
+<input type="text" name="rez" value=""
+readonly="readonly"/>
+</td>
+</tr>
+ </form>
+</table>
+    <script src="script.js"></script>
+</body>
+</html>
